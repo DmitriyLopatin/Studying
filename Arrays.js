@@ -4,9 +4,10 @@
 let [firstName, lastName] = ["Илья", "Кантор"];
 // console.log(firstName); // Илья
 // console.log(lastName);  // Кантор
+
 // --------Методы массивов----------
 
-//-----every---------(проверяет каждый элемент массива на условия, выводит true/false)
+//---------every---------(проверяет каждый элемент массива на условия, выводит true/false)
 let arr = [1,4,6,3,7,2]
 console.log(arr.every(elem=>elem == arr[0]))
 console.log(arr.reduce((elem,sum,index,array)=>elem+sum))
