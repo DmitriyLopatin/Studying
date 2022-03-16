@@ -8,3 +8,4 @@ console.log(Math.floor(Math.random()*25))
 
 //----------Math.trunc() возвращает целую часть числа
 //console.log(Math.trunc(13.37));
+// --------Math.floor() возвращает ближайшее наименьшее целое число 
