@@ -1,4 +1,17 @@
 /-------------------------CSS-------------------/
+
               /-----margin\padding------/
     1. For inline elements doesnot work properly
     2. For background-image works padding (shifting content, but img stays on its place)
+    
+              /------selectors---------/
+              .className:nth-child (2n+1){
+                    стили для нечетных потомков;
+                    }
+              .className:nth-child (2n){
+                    стили для четных потомков;
+                    }
+              .className:first-child{
+                    стили для  первого потомка;
+                    }
+                    
