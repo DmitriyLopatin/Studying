@@ -2,4 +2,4 @@ git init ----- создает папку (репозиторий) .git с пер
 git config ---- добавляет данные о пользователе который добавляет код
     git config user.name "Dmitriy L" 
     git config user.email qwqwe@rt.com
-cat. git/config -- отображает файл config и данные в нем
+cat .git/config -- отображает файл config и данные в нем
