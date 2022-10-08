@@ -8,3 +8,8 @@ useEffect(()=>{
       window.removeEventListener('click', handleLanguageMenu);
     };
  },[languageShow])
+
+// установка порта 
+            "scripts": {
+                "start": "set PORT=3001 && react-scripts start ",
+               },
