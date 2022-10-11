@@ -33,6 +33,16 @@ let [firstName, lastName] = ["Илья", "Кантор"];
           let z = [6,6,6]
           console.log(Math.max.apply(null,z))
           console.log(Math.min.apply(null,z))
+	  
+	  
+//------Перевод из объекта в строку---------//
+let arrFilterItems = Object.keys(filteredData).map((item,index)=>{
+            if(Object.values(filteredData)[index]!==''){
+                return `filter[${item}]=${Object.values(filteredData)[index]}`
+            }
+        }).filter(item=>item!=undefined)
+        let newArr = arrFilterItems.map((item,index)=> index==arrFilterItems.length-1?`${item}`:`${item}&`)
+        console.log(newArr.toString().replace(/[,]/gi, ''))
 
     /----------Math.trunc() возвращает целую часть числа
           console.log(Math.trunc(13.37)); 13
